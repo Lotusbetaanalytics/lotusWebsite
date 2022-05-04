@@ -1,0 +1,9 @@
+.btn {
+    outline: none;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,194 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 5rem;
+}
+
+.about h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.vision {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 5rem;
+    gap: 2rem;
+    background: whitesmoke;
+    margin-bottom: 5rem;
+}
+
+.valuesFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.values {
+    display: flex;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    flex-basis: 30%;
+}
+
+.purple {
+    background: var(--lbanPurple);
+    color: white;
+}
+
+.ceo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.image {
+    display: flex;
+    flex: 0.3;
+
+}
+
+.image img {
+    width: 100%;
+    object-fit: cover;
+    max-height: 30rem;
+}
+
+.text {
+    display: flex;
+    flex: 0.7;
+    flex-direction: column;
+}
+
+.text p {
+    line-height: 2rem;
+    text-align: justify;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1300px) {
+    .vision {
+        padding: 3rem;
+    }
+
+    .about {
+        padding: 3rem;
+    }
+
+    .values {
+        flex-basis: 30%;
+    }
+
+    .image {
+        flex: 0.4;
+
+    }
+
+    .text {
+        flex: 0.6;
+    }
+
+    .image img {
+        max-height: 50rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .vision {
+        padding: 2rem;
+    }
+
+    .about {
+        padding: 3rem;
+    }
+
+    .values {
+        flex-basis: 30%;
+    }
+
+    .image {
+        flex: 0.5;
+
+    }
+
+    .text {
+        flex: 0.5;
+    }
+
+    .image img {
+        max-height: 50rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .vision {
+        padding: 2rem;
+    }
+
+    .about {
+        padding: 3rem;
+    }
+
+    .values {
+        flex-basis: 47%;
+    }
+
+    .ceo {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .vision {
+        padding: 1rem 2rem;
+    }
+
+    .about {
+        padding: 2rem;
+    }
+
+    .values {
+        flex-basis: 47%;
+    }
+
+    .ceo {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width: 550px) {
+    .vision {
+        padding: 1rem;
+    }
+
+    .about {
+        padding: 2rem;
+    }
+
+    .values {
+        flex-basis: 100%;
+    }
+
+    .valuesFlex {
+        gap: 0
+    }
+
+    .ceo {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}

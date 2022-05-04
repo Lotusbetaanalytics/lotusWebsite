@@ -1,9 +1,10 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+:root {
+  /* --lbanPurple: #9A198C; */
+  --lbanPurple: #640ad2;
+
 }
 
 a {
@@ -11,6 +12,254 @@ a {
   text-decoration: none;
 }
 
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  background: white;
+  justify-content: space-around;
+}
+
+
+
+.contentsRight {
+  flex-grow: 1;
+  padding: 0;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  flex: 0.95;
+  padding: 0;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn {
+  height: 3.5rem;
+  outline: none;
+  padding: 1rem 3rem;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  align-items: center;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn svg {
+  margin-right: .5rem;
+}
+
+.purple {
+  background: var(--lbanPurple);
+  color: white;
+}
+
+.white {
+  background: white;
+  color: var(--lbanPurple)
+}
+
+.whiteOutline {
+  outline: 1px solid white;
+  color: white;
+}
+
+.purpleOutline {
+  background: white;
+  outline: 1px solid var(--lbanPurple);
+  color: var(--lbanPurple);
+}
+
+
+/* Forms */
+
+.lban__child {
+  flex-basis: 50%;
+}
+
+.lban__sm {
+  flex-basis: 33%;
+}
+
+.lban__adult {
+  flex-basis: 100%;
+}
+
+.lban__InputFlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+
+}
+
+.forms {
+  padding: 1rem 10rem;
+}
+
+.lban__InputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.lban__InputContainer label {
+  font-size: 13px;
+  color: #000;
+  margin-left: .3rem;
+  margin-bottom: .5rem;
+}
+
+.lban__InputContainer input {
+  width: 100%;
+  height: 3.5rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding: .5rem 1.5rem;
+  border-radius: 10px;
+  background: white;
+}
+
+.lban__InputContainer input:read-only {
+  background: whitesmoke
+}
+
+.lban__InputContainer input:focus {
+  border: 1px solid var(--lbanPurple);
+  outline: 1px solid var(--lbanPurple);
+}
+
+.lban__InputContainer select {
+  width: 100%;
+  height: 3.5rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding: .5rem 1.5rem;
+  border-radius: 10px;
+  background: white;
+  padding-right: 3rem;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1em;
+}
+
+.lban__InputContainer select:focus {
+  border: 1px solid var(--lbanPurple);
+  outline: 1px solid var(--lbanPurple);
+}
+
+.lban__InputContainer textarea {
+  width: 100%;
+  height: 7rem;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  padding: .5rem 1.5rem;
+  border-radius: 10px;
+  background: white;
+}
+
+.lban__InputContainer textarea:focus {
+  border: 1px solid var(--lbanPurple);
+  outline: 1px solid var(--lbanPurple);
+}
+
+
+
+/* End of Forms */
+
+
+/* Media Query */
+
+@media screen and (max-width: 1300px) {
+  .forms {
+    padding: 1rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+
+  .contentsRight {
+    flex: 1;
+  }
+
+  .forms {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+
+  .contentsRight {
+    flex: 1;
+  }
+
+  .forms {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+
+  .contentsRight {
+    flex: 1;
+  }
+
+  .forms {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  .container {
+    flex-direction: column;
+  }
+
+
+  .contentsRight {
+    flex: 1;
+  }
+
+  .forms {
+    padding: 1rem;
+  }
 }

@@ -49,8 +49,8 @@ const Carousel = ({ slides }) => {
                             <div className={styles.carouselSlider}>
                                 <Image src={slide.image} alt={slide.header} className={styles.carouselImage} />
                                 <div className={styles.carouselContent}>
-                                    <h1>{slide.heading}</h1>
-                                    <p>{slide.content}</p>
+                                    {/* <h1>{slide.heading}</h1>
+                                    <p>{slide.content}</p> */}
                                 </div>
 
                             </div>

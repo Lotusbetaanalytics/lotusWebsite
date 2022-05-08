@@ -1,7 +1,14 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import { Navigation, Footer, Hero, TitleLabel } from "../../components";
+import {
+  Navigation,
+  Footer,
+  Hero,
+  TitleLabel,
+  TeamCard,
+  Options,
+} from "../../components";
 import styles from "./styles.module.css";
 import Jump from "react-reveal/Jump";
 import Zoom from "react-reveal/Zoom";
@@ -28,6 +35,16 @@ const Team = () => {
           <Zoom left>
             <TitleLabel title="our Team" color="black" />
           </Zoom>
+          <div className={styles.teamFlex}>
+            {Options.team.map((item, i) => (
+              <TeamCard
+                image={item.image}
+                name={item.name}
+                role={item.role}
+                key={i}
+              />
+            ))}
+          </div>
         </div>
 
         {/* Footer */}

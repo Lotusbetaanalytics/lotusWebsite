@@ -73,6 +73,13 @@
     text-align: justify;
 }
 
+.teamFlex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    padding: 2rem 5rem;
+}
+
 /* Media Query */
 
 @media screen and (max-width: 1300px) {

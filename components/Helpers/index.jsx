@@ -12,6 +12,15 @@ import partner8 from '../../assets/partner8.jpg'
 import partner9 from '../../assets/partner9.jpg'
 import partner10 from '../../assets/partner10.jpg'
 import partner11 from '../../assets/partner11.jpg'
+import sunday from '../../assets/Sunday.jpg'
+import lanre from '../../assets/Lanre.jpg'
+import funmi from '../../assets/Funmi.jpg'
+import abiodun from '../../assets/Abiodun.jpg'
+import ayodele from '../../assets/Ayodele.jpg'
+import joseph from '../../assets/Joseph.jpg'
+import timothy from '../../assets/Timothy.jpg'
+import tobi from '../../assets/Tobi.jpg'
+import mishael from '../../assets/Mishael.jpg'
 
 const Options = {
     slider: [
@@ -147,6 +156,54 @@ const Options = {
         { value: "Linkedin" },
         { value: "Others" },
     ],
+
+    team: [
+        {
+            name: "Sunday David",
+            image: sunday,
+            role: "Chief Technical Officer"
+        },
+        {
+            name: "Funmilayo Akinti",
+            image: funmi,
+            role: "Manager, Business Solutions"
+        },
+        {
+            name: "Ayodele Dina",
+            image: ayodele,
+            role: "Manager, Cloud"
+        },
+        {
+            name: "Lanre Onipede",
+            image: lanre,
+            role: "Manager, Business Solutions"
+        },
+        {
+            name: "Abiodun Olokode",
+            image: abiodun,
+            role: "Manager, Sales"
+        },
+        {
+            name: "Tobiloba Animasaun",
+            image: tobi,
+            role: "Human Resources"
+        },
+        {
+            name: "Joseph Owolabi",
+            image: joseph,
+            role: "Manager, ......."
+        },
+        {
+            name: "Timothy Jayeiola",
+            image: timothy,
+            role: "Manager, ......"
+        },
+        {
+            name: "Mishael Afa Bem",
+            image: mishael,
+            role: "Manager, ....."
+        },
+    ]
 
 };
 export default Options;

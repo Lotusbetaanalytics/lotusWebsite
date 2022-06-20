@@ -171,7 +171,7 @@ const Options = {
         {
             name: "Ayodele Dina",
             image: ayodele,
-            role: "Manager, Cloud"
+            role: "Manager, Cloud & DataCenter Solutions"
         },
         {
             name: "Lanre Onipede",
@@ -186,7 +186,7 @@ const Options = {
         {
             name: "Tobiloba Animasaun",
             image: tobi,
-            role: "Human Resources"
+            role: "Human Resources & Admin Manager"
         },
         {
             name: "Joseph Owolabi",

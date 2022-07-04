@@ -10,7 +10,7 @@ import {
   TestimonialCard,
   Footer,
 } from "../components";
-import aboutImage from "../assets/group.png";
+import aboutImage from "../public/group.png";
 import {
   FaHandshake,
   FaRegPaperPlane,

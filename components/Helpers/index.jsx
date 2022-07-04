@@ -1,26 +1,27 @@
-import imageOne from '../../assets/image1.jpg'
-import imageTwo from '../../assets/image8.jpeg'
-import imageThree from '../../assets/image9.jpg'
-import partner1 from '../../assets/partner1.jpg'
-import partner2 from '../../assets/partner2.jpg'
-import partner3 from '../../assets/partner3.jpg'
-import partner4 from '../../assets/partner4.jpg'
-import partner5 from '../../assets/partner5.jpg'
-import partner6 from '../../assets/partner6.jpg'
-import partner7 from '../../assets/partner7.jpg'
-import partner8 from '../../assets/partner8.jpg'
-import partner9 from '../../assets/partner9.jpg'
-import partner10 from '../../assets/partner10.jpg'
-import partner11 from '../../assets/partner11.jpg'
-import sunday from '../../assets/Sunday.jpg'
-import lanre from '../../assets/Lanre.jpg'
-import funmi from '../../assets/Funmi.jpg'
-import abiodun from '../../assets/Abiodun.jpg'
-import ayodele from '../../assets/Ayodele.jpg'
-import joseph from '../../assets/Joseph.jpg'
-import timothy from '../../assets/Timothy.jpg'
-import tobi from '../../assets/Tobi.jpg'
-import mishael from '../../assets/Mishael.jpg'
+import imageOne from '../../public/image1.jpg'
+import imageTwo from '../../public/server.webp'
+// import imageThree from '../../public/image9.jpg'
+import imageThree from '../../public/image001.webp'
+import partner1 from '../../public/partner1.jpg'
+import partner2 from '../../public/partner2.jpg'
+import partner3 from '../../public/partner3.jpg'
+import partner4 from '../../public/partner4.jpg'
+import partner5 from '../../public/partner5.jpg'
+import partner6 from '../../public/partner6.jpg'
+import partner7 from '../../public/partner7.jpg'
+import partner8 from '../../public/partner8.jpg'
+import partner9 from '../../public/partner9.jpg'
+import partner10 from '../../public/partner10.jpg'
+import partner11 from '../../public/partner11.jpg'
+import sunday from '../../public/Sunday.jpg'
+import lanre from '../../public/Lanre.jpg'
+import funmi from '../../public/Funmi.jpg'
+import abiodun from '../../public/Abiodun.jpg'
+import ayodele from '../../public/Ayodele.jpg'
+import joseph from '../../public/Joseph.jpg'
+import timothy from '../../public/Timothy.jpg'
+import tobi from '../../public/Tobi.jpg'
+import mishael from '../../public/Mishael.jpg'
 
 const Options = {
     slider: [
@@ -188,11 +189,11 @@ const Options = {
             image: tobi,
             role: "Human Resources & Admin Manager"
         },
-        {
-            name: "Joseph Owolabi",
-            image: joseph,
-            role: "Manager, ......."
-        },
+        // {
+        //     name: "Joseph Owolabi",
+        //     image: joseph,
+        //     role: "Manager, ......."
+        // },
         {
             name: "Timothy Jayeiola",
             image: timothy,

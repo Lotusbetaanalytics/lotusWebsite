@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 import Jump from "react-reveal/Jump";
 import Zoom from "react-reveal/Zoom";
 
-import ceo from "../../assets/ceo.jpeg";
+import ceo from "../../public/ceo.jpeg";
 
 const CEO = () => {
   return (

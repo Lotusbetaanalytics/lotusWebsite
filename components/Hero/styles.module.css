@@ -1,7 +1,7 @@
 .hero {
     display: flex;
     padding: 15rem 10rem;
-    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../../assets/image4.webp');
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../../public/image4.webp');
     background-size: cover;
     color: white;
     font-size: 3rem;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css";
-import logo from '../../assets/lban.ico'
-import whitelogo from '../../assets/logo.png'
+import logo from '../../public/logo2.png'
+import whitelogo from '../../public/logo.png'
 import { AiOutlineAlignLeft, AiOutlineClose } from "react-icons/ai";
 import { BsFacebook, BsTwitter, BsInstagram, BsLinkedin, BsYoutube, BsPlus, BsChevronDoubleRight } from "react-icons/bs";
 import Link from "next/link";

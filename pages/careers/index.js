@@ -7,7 +7,7 @@ import {
   CareerCard,
 } from "../../components";
 import styles from "./styles.module.css";
-import photo from "../../assets/intern.jpg";
+import photo from "../../public/intern.jpg";
 
 const Careers = () => {
   const navigateHandler = () => {};

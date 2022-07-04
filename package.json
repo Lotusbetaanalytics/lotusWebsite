@@ -2,11 +2,13 @@
   "name": "lban",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lotusbetaanalytics.com",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "next": "11.1.2",
